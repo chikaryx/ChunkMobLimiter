@@ -1,0 +1,13 @@
+name: ChunkMobLimiter
+version: '${project.version}'
+main: net.claimworld.chunkmoblimiter.ChunkMobLimiter
+api-version: 1.19
+prefix: ChunkMobLimiter
+authors: [ Chikaraa ]
+description: Simple plugin limiting mobs per chunk.
+website: https://claimworld.net
+commands:
+  reload-chunkmoblimiter:
+    description: Reloads data from config file.
+    usage: /<command>
+    permission: claimworld.chunkmoblimiter.reload

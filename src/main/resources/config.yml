@@ -1,0 +1,22 @@
+settings:
+  #allowed amount of mobs per chuck
+  #use any number you like (integer type)
+  global_mob_limit: 150
+
+  #log any blocked spawns to console?
+  # true - yes, give me more details pls
+  # false - no, keep it quiet
+  log_changes: true
+
+  #spawn reasons to include in global_mob_limit
+  #keep it default if you don't know what you're doing!
+  #all spawn reasons can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+  limited_spawn_reasons:
+    - DUPLICATION
+    - BREEDING
+    - SPAWNER
+    - EGG
+
+#
+# check https://claimworld.net/ for newest versions of our simple plugins, support & much more
+#
